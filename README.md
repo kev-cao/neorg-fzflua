@@ -76,6 +76,10 @@ The following configuration options are offered with some defaults:
 
 If you have any more ideas, please feel free to create an issue or open a PR!
 
+## Known Limitations
+
+- Neorg-fzflua does support deleting workspaces, but because `neorg.core.dirman` does not currently supply a method to remove workspaces, they will continue to show up in the workspace picker until the plugin/Neovim is reloaded.
+
 # Contributing
 
 To create a new picker, create a new file in [`lua/fzf-lua/pickers/`](lua/fzf-lua/pickers). The module should return a picker config, as defined here:
