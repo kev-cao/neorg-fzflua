@@ -66,10 +66,12 @@ The following configuration options are offered with some defaults:
 
 # Features
 
-- Searching workspaces
-- Searching files in current workspace
-- Creating on-demand workspaces
-  - Creates a workspace in the directory designed by `workspace_location`
+- Workspaces picker
+  - Switch and delete workspaces
+  - Creating on-demand workspaces
+    - Creates a workspace in the directory designed by `workspace_location`
+- Files picker
+  - Switch, create, and delete files in current workspace
  
 ## Roadmap Features
 - Searching within a `.norg` document
