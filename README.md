@@ -84,4 +84,7 @@ https://github.com/kev-cao/neorg-fzflua/blob/f40a0250dcc3ee7897a8d75084c16a8c865
 
 Once you've created your picker extension, register it in [`lua/fzf-lua/neorg.lua`](lua/fzf-lua/neorg.lua) under the same name as its filename. If you have any keymaps you want to add for your picker, go to [lua/neorg/modules/external/integrations/fzf-lua/module.lua](lua/neorg/modules/external/integrations/fzf-lua/module.lua#L25-L62) and add it to the public config with some sensible defaults.
 
-Please try to use [type annotations](https://luals.github.io/wiki/annotations/) wherever possible to make future development easy.
+Please try to use [type annotations](https://luals.github.io/wiki/annotations/) wherever possible to make future development easy. Also follow the style guide defined in [stylua.toml](./stylua.toml) using [Stylua](https://github.com/JohnnyMorganz/StyLua).
+
+# License
+All files in this repository without annotation are licensed under the *GPL-3.0 license* as detailed in [LICENSE](./LICENSE).
