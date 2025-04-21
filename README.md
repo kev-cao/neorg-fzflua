@@ -61,7 +61,7 @@ The following configuration options are offered with some defaults:
 }
 ```
 > For a full list of picker-specific Fzf options, see the [fzf-lua docs](https://github.com/ibhagwan/fzf-lua/wiki/Advanced#api-basics-fzf_exec).
-> Additionally, the picker keymaps do not follow traditional Neovim syntax, please see the [keymap documentation under "actions"](https://github.com/ibhagwan/fzf-lua/wiki/Advanced#api-basics-fzf_exec).
+> Additionally, the picker keymaps do not follow traditional Neovim syntax, please see the [keymap documentation under "actions"](https://github.com/ibhagwan/fzf-lua?tab=readme-ov-file#customization).
 
 # Features
 
