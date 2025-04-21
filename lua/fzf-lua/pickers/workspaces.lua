@@ -132,8 +132,7 @@ local M = {
 M.load_ondemand_workspaces = function(ws_loc)
     local existing_ws = dirman.get_workspace_names()
     local scan = require("plenary.scandir")
-    local ws_path = Path:new(ws_loc)
-    scan.scan_dir(ws_path:normalize(), {
+    scan.scan_dir(vim.fn.expand(ws_loc), {
         depth = 1,
         only_dirs = true,
         on_insert = function(dir)
