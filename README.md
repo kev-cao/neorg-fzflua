@@ -20,6 +20,7 @@ This should be compatible with any plugin manager that is supported by Neorg.
       dependencies = {
         "kev-cao/neorg-fzflua",
         "ibhagwan/fzf-lua",
+        "nvim-lua/plenary.nvim",
       },
       opts = {
         load = {
